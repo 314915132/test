@@ -1,0 +1,29 @@
+#
+#server:
+#  port: 10081
+
+test:
+  foo: "gittest"
+
+#spring:
+#  application:
+#    name: jilin-wc-booking
+
+#eureka:
+#  instance:
+#    prefer-ip-address: true
+#    instance-id: ${spring.cloud.client.ip-address}:${server.port}
+#  client:
+#    service-url:
+#      defaultZone: http://192.168.1.110:10050/eureka
+#
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: '*'
+#
+#
+#feign:
+#  hystrix:
+#    enabled: true
